@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+*, *::before, *:after {
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #444;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 450px;
+    margin: 50px auto 0;
+    background-color: #6CD4FF;
+    min-height: 500px;
+    padding: 15px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #444444;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+.input-task {
+    display: block;
+    width: 70%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.new-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-task button {
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.new-task button:hover {
+    background-color: #0069d9;
+
+}
+
+.todos {
+    padding-top: 20px;
+}
+
+.task {
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #007bff;
+    background-color: #3E92CC;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.task-date {
+    display: block;
+    font-size: 10px;
+    padding-top: 10px;
+}
